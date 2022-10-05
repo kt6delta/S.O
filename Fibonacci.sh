@@ -10,7 +10,7 @@ fib(){
     fi
  }
 
-for ((i=1; i<10; i++)); do
+for ((i=1; i<11; i++)); do
 echo "posicion=" $i "resultado=" $(fib $i)
 done
 
